@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Freelancer</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!--Header-->
-    <header id="first" class="title-uppercase ">
+    <header id="first" class="title-uppercase">
         <div class="inline-block">
             <h1>Start Bootstrap</h1>
         </div>
@@ -27,13 +27,17 @@
                 <img src="assets/images/profile.png" alt="profile">
             </figure>
             <h2 class="title-uppercase">Start Bootstrap</h2>
-            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <div class="stars">
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            </div>
             <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
     </section>
     <!--Portfolio section-->
     <section id="portfolio">
         <h2 class="title-uppercase">Portfolio</h2>
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <div class="stars">
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        </div>
         <figure class="inline-block">
             <img src="assets/images/portfolio/cabin.png" alt="cabin" class="image-1">
             <img src="assets/images/portfolio/cake.png" alt="cake" class="image-2">
@@ -46,52 +50,61 @@
     <!--about section-->
     <section id="about">
         <h2 class="title-uppercase">About</h2>
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-        <div class="paragraph inline-block">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        <div class="stars">
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
         </div>
-        <div class="paragraph inline-block">
-            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        </div>
+        <div class="container">
+            <div class="paragraph inline-block">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            </div>
+            <div class="paragraph inline-block">
+                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            </div>
+        </div>    
         <div class="button inline-block">
-            <i class="fa fa-download fa-2x" aria-hidden="true"></i>                
-            <a href="">Download Theme</a>
+                <i class="fa fa-download fa-2x" aria-hidden="true"></i>                
+            <a href="#">Download Theme</a>
         </div>
     </section>
     <!--contact section-->
-    <section id="contact-me">
-        <h2>Contact Me</h2>
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-        <div>
+    <section id="contact">
+        <h2 class="title-uppercase">Contact Me</h2>
+        <div class="stars">
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="forms">
             <form action="">
                 <input type="text" placeholder="Name">
-                <hr>
                 <input type="text" placeholder="Email Address">
-                <hr>
                 <input type="number" placeholder="Phone Number">
-                <hr>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <hr>
+                <textarea name="message" id="message" cols="80" rows="8" placeholder="Message"></textarea>
                 <input type="submit" value="Send" class="submit">
             </form>
         </div>
     </section>
     <!--Footer section-->
     <footer>
-        <div>
+        <div class="inline-block">
             <h2>LOCATION</h2>
             <h3>3481 Melrose Place </h3>
             <h3>Beverly Hills, CA 90210</h3>
         </div>
-        <div>
+        <div class="inline-block">
             <h2>AROUND THE WEB</h2>
+            <div id="icons">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-dribbble fa-2x" aria-hidden="true"></i>
+            </div>    
         </div>
-        <div>
+        <div class="inline-block">
             <h2>ABOUT FREELANCER</h2>
             <h3>Freelance is a free to use, open source </h3>
             <h3>Bootstrap theme created by <span>Start Bootstrap.</span></h3>
         </div>
-        <span>Copyright © Your Website 2017</span>
+        <span id="last">Copyright © Your Website 2017</span>
     </footer>
 </body>
 </html>
