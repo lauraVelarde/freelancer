@@ -214,6 +214,7 @@
     text-align: justify;
     font-size: 1.5em;
     border-bottom: 2px solid #eee;
+    outline: none;
 }
 .forms form .submit{
     font-size: 1.5rem;
@@ -224,10 +225,11 @@
     width: 85px;
     border-radius: 8px;
     margin-top: 10px;
+    outline: none;
 }
 /*Styles for footer section*/
 footer{
-    height:300px;
+    height:270px;
     background-color: #2c3e50;
     color: #FFF;
 }
@@ -255,6 +257,7 @@ footer #icons i{
 footer #icons i:hover{
     background-color: #FFF;
     color: #18bc9c;
+    cursor: pointer;
 }
 
 footer h3{
@@ -272,4 +275,5 @@ footer #last{
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding-bottom: 0px;
+    margin-top: 20px;
 }
