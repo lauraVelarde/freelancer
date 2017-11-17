@@ -18,7 +18,7 @@
     transform: translateY(-240%);
     margin-right: 10px;
 }
-.stars::after{
+.stars::after {
     content:'';
     width: 105px;
     height:5px;
@@ -149,6 +149,7 @@
 }
 #about .container{
     text-align: top;
+    margin: 0 auto;
 }
 #about .paragraph {
     text-align: top;
@@ -156,7 +157,7 @@
     padding: 0 15px;
 }
 #about .paragraph p{
-    margin-top: 0;
+    margin: 0 auto;
     font-family: 'Lato', sans-serif;
     text-align:justify;
     font-size:1.25em;
@@ -203,7 +204,8 @@
 }
 #contact .forms{
    position: relative;
-   left: 450px;
+   left: 28%;
+   width: 900px;
 }
 .forms form input,textarea {
     font-family: 'Lato', sans-serif;
